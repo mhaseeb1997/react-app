@@ -4,7 +4,8 @@ import React, { useState } from 'react';
 
 export default function TextForm(props) {
     const  handelUpClick = ()=> {
-        setText('You Have Clicked');
+        let newText = text.toUpperCase()
+        setText(newText);
     }
 
     const  handelOnChange = (event)=> {
